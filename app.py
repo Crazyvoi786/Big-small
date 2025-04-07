@@ -67,4 +67,5 @@ if st.button("Predict Next"):
 st.header("Submit Actual Result")
 actual_result = st.selectbox("What was the actual result?", ["Win", "Loss", "Pending"])
 if st.button("Submit Result"):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%
+  timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
